@@ -1,0 +1,67 @@
+
+
+html {
+    height: 100%;
+    width: 100%;
+    background: url("background.jpg");
+    background-size: cover;
+  }
+
+  @font-face {
+    font-family: "sandFont";
+    src: url("SAND.ttf.TTF");
+    }
+    
+    h1 {text-align: center;
+        font-family: sandFont;
+        color: #ffffff94;   
+        text-shadow: 4px 5px 0px rgb(255 255 255), 4px 4px 15px rgb(0 0 0), 7px 10px 9px #000;}
+
+    body {
+        text-align: center;
+    }
+    .text-center {
+        text-align: center;
+    }
+    
+    button {
+        font-size:25px; background-color: transparent; color:white;
+        text-shadow:
+        -1px -1px 0 #000000,
+        1px -1px 0 #964B00,
+        -1px 1px 0 rgb(16, 49, 68),
+        1px 2px 0 #000000;
+        font-family:'Times New Roman', Times, serif;
+        border-radius: 25px;
+        padding: 15px 15px;
+        cursor: pointer;
+        margin: 10px;
+        transition: 0.8s;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    button::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 0%;
+        background: rgb(80, 185, 182); 
+        z-index: -1;
+        transition: 0.8s;
+        bottom: 0;
+        border-radius: 50% 50% 0 0;
+    }
+
+    button:hover::before {
+        height: 180%
+    }
+
+
+
+    
+
+    
+

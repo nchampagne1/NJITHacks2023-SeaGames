@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Donate</title>
+        <link rel="stylesheet" href="style2.css"/>
+        <script defer src = "app.js"></script>
+    </head>
+    
+    <body>
+        <h3>
+            <nav>
+                <ul>
+                    <li>
+                        <a href = "../index.html">HOME</a>
+                    </li>
+
+                    <li>
+                        <a href = "../game/the Game.html">GAME</a>
+                    </li>
+                </ul>
+            </nav>
+          </h3>
+    <!------------------ INTRO-------------------->
+    <section class="first">
+        <img src="layer6.png" class="parallax sixth" id="six">
+        <img src="layer5.png" class="parallax fifth" id="five">
+        <img src="layer4.png" class="parallax fourth" id="four">
+        <h1 class="parallax-text">Scroll for nonprofit</strong> organizations </h1>
+        <img src="layer3.png" class="parallax third" id="three">
+        <img src="layer2.png" class="parallax second" id="two">
+        <img src="layer1.png" class="parallax top" id="one">
+    </section>
+
+    <script>
+        let six = document.getElementById('six');
+        let five = document.getElementById('five');
+        let four = document.getElementById('four');
+        let three = document.getElementById('three');
+        let two = document.getElementById('two');
+        let one = document.getElementById('one');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            six.style.top = value * 0 + 'px'
+            five.style.top = value * 0.1 + 'px'
+            four.style.top = value * 0.2 + 'px'
+            three.style.top = value * 0.3 + 'px'
+            two.style.top = value * 0.4 + 'px'
+            one.style.top = value * 0.5 + 'px'
+        })
+    </script>
+    <!------------------ OCEANA-------------------->
+        <section class="hidden">
+            <h2><strong>Oceana</strong></h2>
+            <p>Oceana focuses on protecting and restoring the world's oceans through policy advocacy, scientific research,</p> 
+                <p>and public awareness campaigns.They work to combat overfishing, protect marine habitats, and reduce pollution.</p>
+            <div class="text-center">
+            <a href = "https://oceana.org/">
+                <button class="button">LEARN MORE</button>
+            </a>
+            </div>
+        </section>
+
+        <!------------------ mci-------------------->
+        <section class="hidden">
+            <h2><strong>Marine Conservation Institute</strong></h2>
+            <p>This organization is dedicated to protecting and conserving the world's oceans and marine life.</p> 
+                <p>They focus on creating marine protected areas and sustainable fisheries management.
+                </p>
+            <div class="text-center">
+            <a href = "https://marine-conservation.org/">
+                <button class="button">LEARN MORE</button>
+            </a>
+            </div>
+        </section>
+
+        <!------------------ SURFRIDER-------------------->
+        <section class="hidden">
+            <h2><strong>Surfrider Foundation</strong></h2>
+            <p>Surfrider is primarily focused on the protection of coastal and ocean environments.</p> 
+                <p>They work on issues such as water quality, plastic pollution, and beach access.
+                </p>
+            <div class="text-center">
+            <a href = "https://www.surfrider.org/">
+                <button class="button">LEARN MORE</button>
+            </a>
+            </div>
+        </section>
+
+        <!------------------ PROJECT AWARE-------------------->
+        <section class="hidden">
+            <h2><strong>Project AWARE</strong></h2>
+            <p>This non-profit organization is dedicated to the protection of underwater environments and marine life.</p> 
+                <p>They focus on issues such as marine debris and shark conservation.
+                </p>
+            <div class="text-center">
+            <a href = "https://www.padi.com/aware">
+                <button class="button">LEARN MORE</button>
+            </a>
+            </div>
+        </section>
+        <!------------------ CRF-------------------->
+        <section class="hidden">
+            <h2><strong>Coral Restoration Foundation</strong></h2>
+            <p>This organization is dedicated to the preservation and restoration of coral reefs, which are critical to marine ecosystems. </p> 
+                <p>They grow and transplant corals to help rebuild damaged reefs.
+                </p>
+            <div class="text-center">
+            <a href = "https://www.coralrestoration.org/">
+                <button class="button">LEARN MORE</button>
+            </a>
+            </div>
+        </section>
+        <!------------------ SSCS-------------------->
+        <section class="hidden">
+            <h2><strong>Sea Shepherd Conservation Society</strong></h2>
+            <p>Sea Shepherd is known for its direct action campaigns to protect marine life.</p> 
+                <p>They engage in activities like anti-whaling and anti-poaching operations to defend marine species.
+                </p>
+            <div class="text-center">
+            <a href = "https://seashepherd.org">
+                <button class="button">LEARN MORE</button>
+            </a>
+            </div>
+        </section>
+    </div>
+     
+  
+    </body>
+</html>
